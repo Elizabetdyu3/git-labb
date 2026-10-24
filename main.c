@@ -12,8 +12,8 @@ int main() {
     printf ("введите второе целое число: ");
     scanf ("%d", &b);
 
-    int sum = a + b;
-    printf ("Сумма чисел: %d\n", sum);
+    int diff = a - b;
+    printf ("Разность чисел: %d\n", diff);
     
     return 0;
 }
