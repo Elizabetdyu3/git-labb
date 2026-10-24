@@ -11,5 +11,9 @@ int main() {
     scanf ("%d", &a);
     printf ("введите второе целое число: ");
     scanf ("%d", &b);
+
+    int sum = a + b;
+    printf ("Сумма чисел: %d\n", sum);
+    
     return 0;
 }
